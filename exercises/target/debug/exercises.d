@@ -1,1 +1,1 @@
-/home/gabriel/Desktop/programming/rust_tutorial/exercises/target/debug/exercises: /home/gabriel/Desktop/programming/rust_tutorial/exercises/src/day0.rs /home/gabriel/Desktop/programming/rust_tutorial/exercises/src/main.rs
+/home/gabriel/Desktop/programming/rust_tutorial/exercises/target/debug/exercises: /home/gabriel/Desktop/programming/rust_tutorial/exercises/src/day1.rs /home/gabriel/Desktop/programming/rust_tutorial/exercises/src/main.rs
