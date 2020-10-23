@@ -7,7 +7,7 @@ struct Person {
 impl Person {
     fn new(initialAge: i32) -> Person {
         // Add some more code to run some checks on initialAge
-        let mut initial_Age: i32;
+        let initial_Age: i32;
         if initialAge <= 0 {
             initial_Age = 0;
             println!("Age is not valid, setting age to 0.");
