@@ -26,7 +26,7 @@ pub fn run() {
         }
         print!(" ");
         for a in 0..strings_vec[i].len() {
-            if (a as i32) % 2 != 0 {
+            if (a as i32) % 2 == 1 {
                 print!("{}", strings_vec[i].as_bytes()[a] as char);
             }
         }
