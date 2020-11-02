@@ -10,7 +10,7 @@
 //mod functions;
 //mod pointer_ref;
 //mod structs;
-mod test;
+mod hash;
 
 fn main() {
     //print::run();
@@ -24,5 +24,5 @@ fn main() {
     //loops::run();
     //functions::run();
     //structs::run();
-    test::run();
+    hash::run();
 }
