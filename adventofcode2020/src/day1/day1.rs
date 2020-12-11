@@ -17,10 +17,22 @@ pub fn run() {
         }
     }
 
+    // Part 1
     for i in 0..words.len() {
         for a in 0..words.len() {
             if words[i] + words[a] == 2020 {
-                println!("{}", words[i] * words[a]);
+                println!("Part 1: {}", words[i] * words[a]);
+            }
+        }
+    }
+
+    // Part 2
+    for i in 0..words.len() {
+        for a in 0..words.len() {
+            for b in 0..words.len() {
+                if words[i] + words[a] + words[b] == 2020 {
+                    println!("Part 2: {}", words[i] * words[a] * words[b]);
+                }
             }
         }
     }
